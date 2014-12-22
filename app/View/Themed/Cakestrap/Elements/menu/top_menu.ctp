@@ -27,6 +27,7 @@
                                 echo $this->Html->Link(__('Register'), array('controller' => 'users', 'action' => 'add'));
                             }
                         ?></li>
+                        <li><?php echo $this->Html->Link(__('Informations'), array('controller' => 'pages', 'action' => 'informations')) ?></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo __('Menu') ?> <b class="caret"></b></a>
 				<ul class="dropdown-menu">
